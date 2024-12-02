@@ -1,0 +1,248 @@
+Group : test::cg
+
+===============================================================================
+Group : test::cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 10.61 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home1/B110/VamSI/VLSI_RN/SV_LABS/Practice/functional_coverage/example.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   test::cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 36       31        5       14.36   
+Crosses   104      103       1       1.25    
+
+
+Variables for Group  test::cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+c1       5        4         1       20.00   100  1      1        0                    
+c2       8        7         1       12.50   100  1      1        8                    
+c3       7        6         1       14.29   100  1      1        8                    
+a        8        7         1       12.50   100  1      1        8                    
+b        8        7         1       12.50   100  1      1        8                    
+
+
+Crosses for Group  test::cg
+
+
+CROSS EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+c4    40       39        1       2.50    100  1      1        0                     
+c5    0        0         0                           1        0                     
+c6    64       64        0       0.00    100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c1
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 5        4         1       20.00   
+
+
+User Defined Bins for c1
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+b2   0     1        1      
+b1_1 0     1        1      
+b1_2 0     1        1      
+b1_3 0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+b1_0 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c2
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 8        7         1       12.50   
+
+
+Automatically Generated Bins for c2
+
+
+Uncovered bins
+
+NAME                COUNT AT LEAST NUMBER 
+[auto[1] - auto[7]] --    --       7      
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable c3
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 7        6         1       14.29   
+
+
+Automatically Generated Bins for c3
+
+
+Uncovered bins
+
+NAME                COUNT AT LEAST NUMBER 
+[auto[1]]           0     1        1      
+[auto[3] - auto[7]] --    --       5      
+
+
+Excluded/Illegal bins
+
+NAME      COUNT STATUS  
+b7        0     Illegal 
+[auto[2]] 0     Illegal 
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable a
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 8        7         1       12.50   
+
+
+Automatically Generated Bins for a
+
+
+Uncovered bins
+
+NAME                COUNT AT LEAST NUMBER 
+[auto[1] - auto[7]] --    --       7      
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable b
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 8        7         1       12.50   
+
+
+Automatically Generated Bins for b
+
+
+Uncovered bins
+
+NAME                COUNT AT LEAST NUMBER 
+[auto[1] - auto[7]] --    --       7      
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross c4
+
+
+Samples crossed: c1 c2
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 40       39        1       2.50    39      
+
+
+Automatically Generated Cross Bins for c4
+
+
+Element holes
+
+c1                   c2 COUNT AT LEAST NUMBER 
+[b2]                 *  --    --       8      
+[b1_1 , b1_2 , b1_3] *  --    --       24     
+
+
+Uncovered bins
+
+c1     c2                  COUNT AT LEAST NUMBER 
+[b1_0] [auto[1] - auto[7]] --    --       7      
+
+
+Covered bins
+
+c1   c2      COUNT AT LEAST 
+b1_0 auto[0] 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross c5
+
+
+Samples crossed: c1 c2
+CATEGORY                EXPECTED UNCOVERED COVERED PERCENT MISSING 
+User Defined Cross Bins 0        0         0                       
+
+
+User Defined Cross Bins for c5
+
+
+Excluded/Illegal bins
+
+NAME COUNT STATUS  
+b4   0     Illegal 
+b5   0     Illegal 
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross c6
+
+
+Samples crossed: a b
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 64       64        0       0.00    64      
+
+
+Automatically Generated Cross Bins for c6
+
+
+Uncovered bins
+
+a b COUNT AT LEAST NUMBER 
+* * --    --       64     
+
+

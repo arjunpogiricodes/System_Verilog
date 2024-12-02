@@ -1,0 +1,4 @@
+QuestaSim-64 qverilog 2022.1_2 Compiler 2022.04 Apr  2 2022
+** Error (suppressible): (qverilog-1945) Unrecognized option or option requires an argument: -wlf. If the option is a runtime option for vsim, specify the option on the command line after the -R option.
+Use the -help option for complete qverilog usage.
+Errors: 1, Warnings: 0

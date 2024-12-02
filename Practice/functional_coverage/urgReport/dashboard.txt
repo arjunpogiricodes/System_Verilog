@@ -1,0 +1,22 @@
+Dashboard
+
+Date: Tue Oct  8 16:27:13 2024
+
+User: VamSI
+
+Version: T-2022.06-SP1
+Command line: urg -dir cov -format text 
+
+Number of tests: 1
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+ 10.61  10.61 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  WEIGHT 
+ 10.61 1      
+
