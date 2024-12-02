@@ -1,0 +1,172 @@
+Group : $unit::score_board::cg
+
+===============================================================================
+Group : $unit::score_board::cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 97.14 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home1/B110/PogiRiArjun/VLSI_RN/SV_LABS/mini_pro/sim/../mod12_up_down_conter.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::score_board::cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 13       0         13      100.00  
+Crosses   28       4         24      85.71   
+
+
+Variables for Group  $unit::score_board::cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+DATA_OUT 7        0         7       100.00  100  1      1        0                    
+MODE     2        0         2       100.00  100  1      1        0                    
+LOAD     2        0         2       100.00  100  1      1        0                    
+RESET    2        0         2       100.00  100  1      1        0                    
+
+
+Crosses for Group  $unit::score_board::cg
+
+
+CROSS    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+RXLXMXDO 28       4         24      85.71   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA_OUT
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 7        0         7       100.00  
+
+
+User Defined Bins for DATA_OUT
+
+
+Bins
+
+NAME COUNT AT LEAST 
+val7 17    1        
+val6 10    1        
+val5 10    1        
+val4 7     1        
+val3 13    1        
+val2 16    1        
+val1 90    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable MODE
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for MODE
+
+
+Bins
+
+NAME   COUNT AT LEAST 
+val8_0 39    1        
+val8_1 111   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable LOAD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for LOAD
+
+
+Bins
+
+NAME   COUNT AT LEAST 
+val9_0 101   1        
+val9_1 49    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RESET
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for RESET
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+val10_0 52    1        
+val10_1 98    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross RXLXMXDO
+
+
+Samples crossed: DATA_OUT MODE LOAD
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 28       4         24      85.71   4       
+
+
+Automatically Generated Cross Bins for RXLXMXDO
+
+
+Uncovered bins
+
+DATA_OUT                    MODE     LOAD     COUNT AT LEAST NUMBER 
+[val6 , val5 , val4 , val3] [val8_0] [val9_1] --    --       4      
+
+
+Covered bins
+
+DATA_OUT MODE   LOAD   COUNT AT LEAST 
+val7     val8_0 val9_1 2     1        
+val7     val8_0 val9_0 4     1        
+val7     val8_1 val9_1 2     1        
+val7     val8_1 val9_0 9     1        
+val6     val8_0 val9_0 1     1        
+val6     val8_1 val9_0 8     1        
+val6     val8_1 val9_1 1     1        
+val5     val8_0 val9_0 2     1        
+val5     val8_1 val9_0 6     1        
+val5     val8_1 val9_1 2     1        
+val4     val8_0 val9_0 2     1        
+val4     val8_1 val9_1 2     1        
+val4     val8_1 val9_0 3     1        
+val3     val8_0 val9_0 4     1        
+val3     val8_1 val9_0 7     1        
+val3     val8_1 val9_1 2     1        
+val2     val8_0 val9_1 2     1        
+val2     val8_0 val9_0 4     1        
+val2     val8_1 val9_1 3     1        
+val2     val8_1 val9_0 7     1        
+val1     val8_0 val9_1 7     1        
+val1     val8_0 val9_0 12    1        
+val1     val8_1 val9_1 28    1        
+val1     val8_1 val9_0 43    1        
+
+

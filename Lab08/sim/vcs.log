@@ -1,0 +1,200 @@
+Command: /home1/B110/PogiRiArjun/VLSI_RN/SV_LABS/Lab08/sim/./simv -l vcs.log -vdb mem_cov.vdb +ntb_random_seed=
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP1_Full64; Runtime version T-2022.06-SP1_Full64;  Oct  5 10:31 2024
+
+Warning-[INV-RANDSEED-VAL] Invalid random seed value
+  Invalid random seed value passed through command line or environment 
+  variable. Seed value should be an integer. Using 1 as seed value
+
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06-SP1, Linux x86_64/64bit, 08/28/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'novas.fsdb'
+*Verdi* : Begin traversing the scope (top), layer (0).
+*Verdi* : End of traversing.
+=============================================================
+	RANDOMIZED DATA
+	_______________________________
+	Transaction No.           1
+	Read Transaction No.           1
+	Write Transaction No.           0
+	Read-Write Transaction No.           0
+	_______________________________
+	Read=1, write=0
+	Read_Address=1494, Write_Address=3985
+	Data=                 757
+	Data_out=                    x
+=============================================================
+=============================================================
+	RANDOMIZED DATA
+	_______________________________
+	Transaction No.           2
+	Read Transaction No.           1
+	Write Transaction No.           1
+	Read-Write Transaction No.           0
+	_______________________________
+	Read=0, write=1
+	Read_Address=2639, Write_Address=3618
+	Data=                3210
+	Data_out=                    x
+=============================================================
+=============================================================
+	RANDOMIZED DATA
+	_______________________________
+	Transaction No.           3
+	Read Transaction No.           1
+	Write Transaction No.           1
+	Read-Write Transaction No.           1
+	_______________________________
+	Read=1, write=1
+	Read_Address= 625, Write_Address=3995
+	Data=                4051
+	Data_out=                    x
+=============================================================
+=============================================================
+	RANDOMIZED DATA
+	_______________________________
+	Transaction No.           4
+	Read Transaction No.           1
+	Write Transaction No.           2
+	Read-Write Transaction No.           1
+	_______________________________
+	Read=0, write=1
+	Read_Address=2243, Write_Address=3434
+	Data=                2593
+	Data_out=                    x
+=============================================================
+=============================================================
+	RANDOMIZED DATA
+	_______________________________
+	Transaction No.           5
+	Read Transaction No.           1
+	Write Transaction No.           3
+	Read-Write Transaction No.           1
+	_______________________________
+	Read=0, write=1
+	Read_Address=3949, Write_Address= 759
+	Data=                2350
+	Data_out=                    x
+=============================================================
+=============================================================
+	RANDOMIZED DATA
+	_______________________________
+	Transaction No.           6
+	Read Transaction No.           1
+	Write Transaction No.           3
+	Read-Write Transaction No.           2
+	_______________________________
+	Read=1, write=1
+	Read_Address=2263, Write_Address=2098
+	Data=                3027
+	Data_out=                    x
+=============================================================
+=============================================================
+	RANDOMIZED DATA
+	_______________________________
+	Transaction No.           7
+	Read Transaction No.           2
+	Write Transaction No.           3
+	Read-Write Transaction No.           2
+	_______________________________
+	Read=1, write=0
+	Read_Address= 568, Write_Address=2798
+	Data=                 176
+	Data_out=                    x
+=============================================================
+=============================================================
+	RANDOMIZED DATA
+	_______________________________
+	Transaction No.           8
+	Read Transaction No.           2
+	Write Transaction No.           4
+	Read-Write Transaction No.           2
+	_______________________________
+	Read=0, write=1
+	Read_Address=1492, Write_Address= 131
+	Data=                1818
+	Data_out=                    x
+=============================================================
+=============================================================
+	RANDOMIZED DATA
+	_______________________________
+	Transaction No.           9
+	Read Transaction No.           2
+	Write Transaction No.           5
+	Read-Write Transaction No.           2
+	_______________________________
+	Read=0, write=1
+	Read_Address= 498, Write_Address=3903
+	Data=                3943
+	Data_out=                    x
+=============================================================
+=============================================================
+	RANDOMIZED DATA
+	_______________________________
+	Transaction No.          10
+	Read Transaction No.           2
+	Write Transaction No.           6
+	Read-Write Transaction No.           2
+	_______________________________
+	Read=0, write=1
+	Read_Address=2994, Write_Address= 963
+	Data=                3394
+	Data_out=                    x
+=============================================================
+=============================================================
+DATA FROM READ MONITOR
+	Read=1, write=0
+	Read_Address=1494, Write_Address=   0
+	Data=                   0
+	Data_out=                    z
+=============================================================
+=============================================================
+DATA FROM READ MONITOR
+	Read=0, write=0
+	Read_Address=1494, Write_Address=   0
+	Data=                   0
+	Data_out=                    0
+=============================================================
+=============================================================
+DATA FROM READ MONITOR
+	Read=1, write=0
+	Read_Address= 625, Write_Address=   0
+	Data=                   0
+	Data_out=                    z
+=============================================================
+=============================================================
+DATA FROM READ MONITOR
+	Read=0, write=0
+	Read_Address= 625, Write_Address=   0
+	Data=                   0
+	Data_out=                    0
+=============================================================
+=============================================================
+DATA FROM READ MONITOR
+	Read=1, write=0
+	Read_Address=2263, Write_Address=   0
+	Data=                   0
+	Data_out=                    z
+=============================================================
+=============================================================
+DATA FROM READ MONITOR
+	Read=0, write=0
+	Read_Address=2263, Write_Address=   0
+	Data=                   0
+	Data_out=                    0
+=============================================================
+=============================================================
+DATA FROM READ MONITOR
+	Read=1, write=0
+	Read_Address= 568, Write_Address=   0
+	Data=                   0
+	Data_out=                    0
+=============================================================
+$finish called from file "../test/top.sv", line 70.
+$finish at simulation time                42055
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 42055
+CPU Time:      0.280 seconds;       Data structure size:   0.0Mb
+Sat Oct  5 10:31:51 2024

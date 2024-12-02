@@ -1,0 +1,26 @@
+<session version="1.1" release="T-2022.06-SP1" timestp="2024-10-14 10:47:42 GMT">
+  <info>
+    <attr name="datetime" value="Mon Oct 14 16:17:45 2024
+"/>
+    <attr name="command" value="urg -dir cov -format both"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="97.1428%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="$unit::score_board::cg">
+      <metric name="Group" value="97.1428%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>
