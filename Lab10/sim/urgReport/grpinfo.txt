@@ -1,0 +1,603 @@
+Group : ram_pkg::ram_sb::mem_coverage
+
+===============================================================================
+Group : ram_pkg::ram_sb::mem_coverage
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00  64.81    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home1/B110/PogiRiArjun/VLSI_RN/SV_LABS/Lab101/sim/../env_lib/ram_sb.sv
+
+3 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                                    
+ 38.89 1      100    1        64           64            top.ext_test_h1.env_h.sb_h.mem_coverage 
+ 69.44 1      100    1        64           64            top.ext_test_h2.env_h.sb_h.mem_coverage 
+ 86.11 1      100    1        64           64            top.base_test_h.env_h.sb_h.mem_coverage 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   ram_pkg::ram_sb::mem_coverage
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 19       0         19      100.00  
+Crosses   9        0         9       100.00  
+
+
+Variables for Group  ram_pkg::ram_sb::mem_coverage
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+RD_ADD   9        0         9       100.00  100  1      1        0                    
+DATA     9        0         9       100.00  100  1      1        0                    
+RD       1        0         1       100.00  100  1      1        0                    
+
+
+Crosses for Group  ram_pkg::ram_sb::mem_coverage
+
+
+CROSS    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+READxADD 9        0         9       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RD_ADD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 9        0         9       100.00  
+
+
+User Defined Bins for RD_ADD
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+MAX      189   1        
+HIGH2    100   1        
+HIGH1    94    1        
+MID_HIGH 98    1        
+MID      99    1        
+MID_LOW  91    1        
+LOW2     99    1        
+LOW1     81    1        
+ZERO     143   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 9        0         9       100.00  
+
+
+User Defined Bins for DATA
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+MAX      20    1        
+HIGH2    3     1        
+HIGH1    1     1        
+MID_HIGH 4     1        
+MID      3     1        
+MID_LOW  2     1        
+LOW2     2     1        
+LOW1     3     1        
+ZERO     697   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for RD
+
+
+Bins
+
+NAME COUNT AT LEAST 
+read 994   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross READxADD
+
+
+Samples crossed: RD RD_ADD
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 9        0         9       100.00          
+
+
+Automatically Generated Cross Bins for READxADD
+
+
+Bins
+
+RD   RD_ADD   COUNT AT LEAST 
+read MAX      189   1        
+read HIGH2    100   1        
+read HIGH1    94    1        
+read MID_HIGH 98    1        
+read MID      99    1        
+read MID_LOW  91    1        
+read LOW2     99    1        
+read LOW1     81    1        
+read ZERO     143   1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.ext_test_h1.env_h.sb_h.mem_coverage
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 38.89 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                          
+100.00  64.81    1      100    1        1            64           64                    ram_pkg::ram_sb::mem_coverage 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.ext_test_h1.env_h.sb_h.mem_coverage
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 19       15        4       44.44   
+Crosses   9        7         2       22.22   
+
+
+Variables for Group Instance  top.ext_test_h1.env_h.sb_h.mem_coverage
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+RD_ADD   9        7         2       22.22   100  1      1        0                    
+DATA     9        8         1       11.11   100  1      1        0                    
+RD       1        0         1       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  top.ext_test_h1.env_h.sb_h.mem_coverage
+
+
+CROSS    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+READxADD 9        7         2       22.22   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RD_ADD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 9        7         2       22.22   
+
+
+User Defined Bins for RD_ADD
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+HIGH2    0     1        1      
+HIGH1    0     1        1      
+MID_HIGH 0     1        1      
+MID      0     1        1      
+MID_LOW  0     1        1      
+LOW2     0     1        1      
+LOW1     0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+MAX  189   1        
+ZERO 143   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 9        8         1       11.11   
+
+
+User Defined Bins for DATA
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+MAX      0     1        1      
+HIGH2    0     1        1      
+HIGH1    0     1        1      
+MID_HIGH 0     1        1      
+MID      0     1        1      
+MID_LOW  0     1        1      
+LOW2     0     1        1      
+LOW1     0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+ZERO 265   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for RD
+
+
+Bins
+
+NAME COUNT AT LEAST 
+read 332   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross READxADD
+
+
+Samples crossed: RD RD_ADD
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 9        7         2       22.22   7       
+
+
+Automatically Generated Cross Bins for READxADD
+
+
+Element holes
+
+RD RD_ADD                                                   COUNT AT LEAST NUMBER 
+*  [HIGH2 , HIGH1 , MID_HIGH , MID , MID_LOW , LOW2 , LOW1] --    --       7      
+
+
+Covered bins
+
+RD   RD_ADD COUNT AT LEAST 
+read MAX    189   1        
+read ZERO   143   1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.ext_test_h2.env_h.sb_h.mem_coverage
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 69.44 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                          
+100.00  64.81    1      100    1        1            64           64                    ram_pkg::ram_sb::mem_coverage 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.ext_test_h2.env_h.sb_h.mem_coverage
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 19       9         10      66.67   
+Crosses   9        2         7       77.78   
+
+
+Variables for Group Instance  top.ext_test_h2.env_h.sb_h.mem_coverage
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+RD_ADD   9        2         7       77.78   100  1      1        0                    
+DATA     9        7         2       22.22   100  1      1        0                    
+RD       1        0         1       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  top.ext_test_h2.env_h.sb_h.mem_coverage
+
+
+CROSS    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+READxADD 9        2         7       77.78   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RD_ADD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 9        2         7       77.78   
+
+
+User Defined Bins for RD_ADD
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+MAX  0     1        1      
+ZERO 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+HIGH2    58    1        
+HIGH1    39    1        
+MID_HIGH 45    1        
+MID      51    1        
+MID_LOW  38    1        
+LOW2     50    1        
+LOW1     46    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 9        7         2       22.22   
+
+
+User Defined Bins for DATA
+
+
+Uncovered bins
+
+NAME     COUNT AT LEAST NUMBER 
+HIGH2    0     1        1      
+HIGH1    0     1        1      
+MID_HIGH 0     1        1      
+MID      0     1        1      
+MID_LOW  0     1        1      
+LOW2     0     1        1      
+LOW1     0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+MAX  20    1        
+ZERO 206   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for RD
+
+
+Bins
+
+NAME COUNT AT LEAST 
+read 327   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross READxADD
+
+
+Samples crossed: RD RD_ADD
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 9        2         7       77.78   2       
+
+
+Automatically Generated Cross Bins for READxADD
+
+
+Element holes
+
+RD RD_ADD COUNT AT LEAST NUMBER 
+*  [MAX]  0     1        1      
+*  [ZERO] 0     1        1      
+
+
+Covered bins
+
+RD   RD_ADD   COUNT AT LEAST 
+read MID_LOW  38    1        
+read MID_HIGH 45    1        
+read LOW2     50    1        
+read HIGH2    58    1        
+read LOW1     46    1        
+read HIGH1    39    1        
+read MID      51    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.base_test_h.env_h.sb_h.mem_coverage
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 86.11 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                          
+100.00  64.81    1      100    1        1            64           64                    ram_pkg::ram_sb::mem_coverage 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.base_test_h.env_h.sb_h.mem_coverage
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 19       3         16      88.89   
+Crosses   9        2         7       77.78   
+
+
+Variables for Group Instance  top.base_test_h.env_h.sb_h.mem_coverage
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+RD_ADD   9        2         7       77.78   100  1      1        0                    
+DATA     9        1         8       88.89   100  1      1        0                    
+RD       1        0         1       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  top.base_test_h.env_h.sb_h.mem_coverage
+
+
+CROSS    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+READxADD 9        2         7       77.78   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RD_ADD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 9        2         7       77.78   
+
+
+User Defined Bins for RD_ADD
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+MAX  0     1        1      
+ZERO 0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+HIGH2    42    1        
+HIGH1    55    1        
+MID_HIGH 53    1        
+MID      48    1        
+MID_LOW  53    1        
+LOW2     49    1        
+LOW1     35    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 9        1         8       88.89   
+
+
+User Defined Bins for DATA
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+MAX  0     1        1      
+
+
+Covered bins
+
+NAME     COUNT AT LEAST 
+HIGH2    3     1        
+HIGH1    1     1        
+MID_HIGH 4     1        
+MID      3     1        
+MID_LOW  2     1        
+LOW2     2     1        
+LOW1     3     1        
+ZERO     226   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RD
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for RD
+
+
+Bins
+
+NAME COUNT AT LEAST 
+read 335   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross READxADD
+
+
+Samples crossed: RD RD_ADD
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 9        2         7       77.78   2       
+
+
+Automatically Generated Cross Bins for READxADD
+
+
+Element holes
+
+RD RD_ADD COUNT AT LEAST NUMBER 
+*  [MAX]  0     1        1      
+*  [ZERO] 0     1        1      
+
+
+Covered bins
+
+RD   RD_ADD   COUNT AT LEAST 
+read MID_LOW  53    1        
+read MID_HIGH 53    1        
+read HIGH1    55    1        
+read HIGH2    42    1        
+read MID      48    1        
+read LOW1     35    1        
+read LOW2     49    1        
+
+

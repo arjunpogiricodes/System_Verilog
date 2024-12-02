@@ -1,0 +1,21 @@
+Dashboard
+
+Date: Mon Oct 14 13:38:28 2024
+
+User: PogiRiArjun
+
+Version: T-2022.06-SP1
+Command line: urg -dir cov2.vdb -format both -report urgReport2
+Number of tests: 1
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+ 38.89  38.89 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+ 38.89  38.89     1      
+
